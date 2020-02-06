@@ -1,29 +1,16 @@
 # vue_admin
 
-## Project setup
-```
-npm install
-```
+## Project Info
+使用 @vue/cli 4.x 搭建
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 功能包括
+1.首页
 
-### Compiles and minifies for production
-```
-npm run build
-```
+2.账号密码登录、第三方登录(微信、QQ、手机号码、钉钉等)
 
-### Run your unit tests
-```
-npm run test:unit
-```
+3.权限控制(用户、角色、资源、以及分组等)
 
-### Lints and fixes files
-```
-npm run lint
-```
+4.。。。。
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+持续更新 敬请期待
+
