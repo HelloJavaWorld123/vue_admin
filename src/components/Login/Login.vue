@@ -5,9 +5,13 @@ Desc: 登录表单
 
 <template>
     <div>
-        <h1 class="login-title">登录页面</h1>
-        <h1>{{path}}</h1>
-        <h1>{{dirName}}</h1>
+        <i-form :model="loginForm">
+            <form-item prop="username">
+            </form-item>
+            <form-item prop="password">
+            </form-item>
+            <form-item></form-item>
+        </i-form>
     </div>
 </template>
 
@@ -16,8 +20,10 @@ Desc: 登录表单
         name: "Login",
         data(){
             return{
-                path: require('path'),
-                dirName: __dirname
+                loginForm:{
+                    username:'',
+                    password:''
+                }
             }
         }
     }
